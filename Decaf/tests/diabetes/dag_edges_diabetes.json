@@ -1,0 +1,117 @@
+[
+  ["number_inpatient","readmitted"],
+  ["number_inpatient","number_emergency"],
+  ["number_inpatient","number_outpatient"],
+  ["number_inpatient","insulin"],
+
+  ["change","nateglinide"],
+  ["change","glimepiride"],
+  ["change","rosiglitazone"],
+  ["change","glyburide"],
+  ["change","glipizide"],
+  ["change","metformin"],
+  ["change","acarbose"],
+  ["change","insulin"],
+  ["change","pioglitazone"],
+  ["change","num_medications"],
+  ["change","A1Cresult"],
+
+  ["diabetesMed","repaglinide"],
+  ["diabetesMed","glyburide-metformin"],
+  ["diabetesMed","pioglitazone"],
+  ["diabetesMed","rosiglitazone"],
+  ["diabetesMed","glimepiride"],
+  ["diabetesMed","nateglinide"],
+
+  ["insulin","admission_type_id"],
+  ["insulin","encounter_id"],
+  ["insulin","patient_nbr"],
+  ["insulin","pioglitazone"],
+  ["insulin","diabetesMed"],
+  ["insulin","glyburide"],
+  ["insulin","glipizide"],
+  ["insulin","metformin"],
+  ["insulin","rosiglitazone"],
+  ["insulin","glimepiride"],
+
+  ["encounter_id","number_emergency"],
+  ["encounter_id","num_lab_procedures"],
+  ["encounter_id","num_medications"],
+  ["encounter_id","admission_source_id"],
+  ["encounter_id","admission_type_id"],
+  ["encounter_id","patient_nbr"],
+  ["encounter_id","glyburide-metformin"],
+  ["encounter_id","race"],
+  ["encounter_id","number_diagnoses"],
+
+  ["metformin","diabetesMed"],
+  ["metformin","glipizide"],
+
+  ["glipizide","diabetesMed"],
+  ["glipizide","glyburide"],
+
+  ["glyburide","diabetesMed"],
+
+  ["number_outpatient","admission_source_id"],
+  ["number_outpatient","number_emergency"],
+  ["number_outpatient","encounter_id"],
+
+  ["number_emergency","patient_nbr"],
+
+  ["patient_nbr","race"],
+  ["patient_nbr","admission_source_id"],
+  ["patient_nbr","max_glu_serum"],
+  ["patient_nbr","admission_type_id"],
+  ["patient_nbr","discharge_disposition_id"],
+  ["patient_nbr","readmitted"],
+  ["patient_nbr","repaglinide"],
+
+  ["admission_source_id","admission_type_id"],
+  ["admission_source_id","number_diagnoses"],
+  ["admission_source_id","diag_1"],
+  ["admission_source_id","max_glu_serum"],
+  ["admission_source_id","A1Cresult"],
+
+  ["admission_type_id","race"],
+  ["admission_type_id","number_diagnoses"],
+  ["admission_type_id","num_procedures"],
+  ["admission_type_id","diag_1"],
+  ["admission_type_id","max_glu_serum"],
+
+  ["race","diag_3"],
+  ["race","gender"],
+
+  ["max_glu_serum","num_lab_procedures"],
+
+  ["diag_1","diag_2"],
+  ["diag_1","num_procedures"],
+
+  ["num_procedures","num_medications"],
+  ["num_procedures","time_in_hospital"],
+  ["num_procedures","age"],
+  ["num_procedures","diag_2"],
+
+  ["num_lab_procedures","num_procedures"],
+  ["num_lab_procedures","num_medications"],
+  ["num_lab_procedures","A1Cresult"],
+  ["num_lab_procedures","time_in_hospital"],
+
+  ["num_medications","time_in_hospital"],
+  ["num_medications","discharge_disposition_id"],
+  ["num_medications","number_diagnoses"],
+
+  ["number_diagnoses","diag_2"],
+  ["number_diagnoses","diag_3"],
+
+  ["diag_2","age"],
+  ["diag_2","diag_3"],
+
+  ["age","A1Cresult"],
+  ["age","discharge_disposition_id"],
+  ["age","gender"],
+
+  ["discharge_disposition_id","time_in_hospital"],
+  ["discharge_disposition_id","readmitted"],
+
+  ["gender","glipizide-metformin"]
+]

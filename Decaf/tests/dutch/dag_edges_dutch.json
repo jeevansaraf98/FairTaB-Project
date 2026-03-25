@@ -1,0 +1,40 @@
+[
+  ["country_birth","cur_eco_activity"],
+  ["country_birth","edu_level"],
+  ["country_birth","citizenship"],
+
+  ["cur_eco_activity","edu_level"],
+  ["cur_eco_activity","economic_status"],
+  ["cur_eco_activity","age"],
+  ["cur_eco_activity","occupation"],
+  ["cur_eco_activity","sex"],
+
+  ["edu_level","economic_status"],
+  ["edu_level","occupation"],
+  ["edu_level","age"],
+  ["edu_level","household_size"],
+
+  ["economic_status","occupation"],
+  ["economic_status","sex"],
+  ["economic_status","age"],
+  ["economic_status","household_size"],
+  ["economic_status","marital_status"],
+
+  ["occupation","sex"],
+  ["occupation","age"],
+  ["occupation","prev_residence_place"],
+
+  ["age","citizenship"],
+  ["age","household_size"],
+  ["age","marital_status"],
+  ["age","household_position"],
+  ["age","prev_residence_place"],
+  ["age","sex"],
+
+  ["household_size","household_position"],
+  ["household_size","marital_status"],
+
+  ["marital_status","household_position"],
+
+  ["household_position","prev_residence_place"]
+]

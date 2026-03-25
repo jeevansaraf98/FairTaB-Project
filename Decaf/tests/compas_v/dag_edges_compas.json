@@ -1,0 +1,20 @@
+[
+  ["age_cat","c_charge_degree"],
+
+  ["c_charge_degree","sex"],
+
+  ["v_score_text","score_text"],
+  ["v_score_text","two_year_recid"],
+  ["v_score_text","age_cat"],
+
+  ["score_text","priors_count"],
+  ["score_text","race"],
+  ["score_text","juv_crime"],
+
+  ["juv_crime","priors_count"],
+
+  ["priors_count","c_charge_degree"],
+  ["priors_count","sex"],
+  ["priors_count","two_year_recid"],
+  ["priors_count","age_cat"]
+]

@@ -1,0 +1,47 @@
+[
+  ["capital-gain","capital-loss"],
+  ["capital-gain","Class-label"],
+  ["capital-gain","educational-num"],
+  ["capital-gain","marital-status"],
+
+  ["educational-num","workclass"],
+  ["educational-num","education"],
+  ["educational-num","marital-status"],
+  ["educational-num","occupation"],
+  ["educational-num","race"],
+  ["educational-num","native-country"],
+  ["educational-num","Class-label"],
+
+  ["marital-status","relationship"],
+  ["marital-status","age"],
+  ["marital-status","Class-label"],
+  ["marital-status","gender"],
+
+  ["Class-label","relationship"],
+  ["Class-label","age"],
+  ["Class-label","hours-per-week"],
+  ["Class-label","occupation"],
+  ["Class-label","capital-loss"],
+  ["Class-label","education"],
+
+  ["relationship","hours-per-week"],
+  ["relationship","gender"],
+  ["relationship","race"],
+  ["relationship","age"],
+
+  ["race","native-country"],
+  ["race","fnlwgt"],
+
+  ["native-country","fnlwgt"],
+  ["education","native-country"],
+  ["occupation","education"],
+
+  ["age","workclass"],
+  ["age","hours-per-week"],
+
+  ["hours-per-week","workclass"],
+  ["hours-per-week","gender"],
+  ["hours-per-week","occupation"],
+
+  ["workclass","occupation"]
+]
